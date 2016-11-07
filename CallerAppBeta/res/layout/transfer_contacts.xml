@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#88ACE0" >
+    
+    
+    <Button
+    	android:id="@+id/button_move_all_external_to_embedded_transfer_contacts"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:textStyle="bold"
+		android:textSize="15sp"
+        android:text="Move All External Entry To Embedded"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/custom_button_sample"
+        android:padding="2dp" />
+    <Button
+    	android:id="@+id/button_move_single_external_to_embedded_transfer_contacts"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:textStyle="bold"
+		android:textSize="15sp"
+        android:text="Move Single External Entry To Embedded"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/custom_button_sample1"
+        android:padding="2dp" />
+    <Button
+    	android:id="@+id/button_copy_all_external_to_embedded_transfer_contacts"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:textStyle="bold"
+		android:textSize="15sp"
+        android:text="Copy All External Entry To Embedded"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/custom_button_sample"
+        android:padding="2dp" />
+    <Button
+    	android:id="@+id/button_copy_single_external_to_embedded_transfer_contacts"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:textStyle="bold"
+		android:textSize="15sp"
+        android:text="Copy Single External Entry To Embedded"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/custom_button_sample1"
+        android:padding="2dp" />
+    
+    <Button
+    	android:id="@+id/button_move_all_embedded_to_external_transfer_contacts"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:textStyle="bold"
+		android:textSize="15sp"
+        android:text="Move All Embedded Entry To External"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/custom_button_sample"
+        android:padding="2dp" />
+    <Button
+    	android:id="@+id/button_move_single_embedded_to_external_transfer_contacts"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:textStyle="bold"
+		android:textSize="15sp"
+        android:text="Move Single Embedded Entry To Extermal"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/custom_button_sample1"
+        android:padding="2dp" />
+    <Button
+    	android:id="@+id/button_copy_all_embedded_to_external_transfer_contacts"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:textStyle="bold"
+		android:textSize="15sp"
+        android:text="Copy All Embedded Entry To External"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+		android:background="@drawable/custom_button_sample"
+        android:padding="2dp" />
+    <Button
+    	android:id="@+id/button_copy_single_embedded_to_external_transfer_contacts"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:textStyle="bold"
+		android:textSize="15sp"
+        android:text="Copy Single Embedded Entry To External"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/custom_button_sample1"
+        android:padding="2dp" />
+
+</LinearLayout>

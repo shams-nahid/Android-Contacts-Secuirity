@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#88ACE0" >
+    
+    
+    <ImageView 
+        android:id="@+id/image_view_company_logo_hosting_about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:src="@drawable/company_logo" />    
+    
+    
+    
+    
+    <TextView
+        android:id="@+id/text_view_one_hosting_about_us"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Shams Inc."
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+    
+    <TextView
+        android:id="@+id/text_view_two_hosting_about_us"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Rajshahi, Bangladesh"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/text_view_three_hosting_about_us"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Support Us:"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/text_view_four_hosting_about_us"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="b.m.shamsnahid@gmail.com"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/text_view_five_hosting_about_us"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="techfromnahid.wordpress.com"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    android:background="#88ACE0" >
+    
+    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="9" >
+	        <Button
+	            android:id="@+id/button_phone_hosting_add_new_contact"
+	            android:layout_weight="3"
+	            android:text="PHONE"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#236B8E" />
+	        <Button
+	            android:id="@+id/button_contacts_hosting_add_new_contact"
+	            android:layout_weight="3"
+	            android:text="CONTACTS"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#236B8E" />
+	        <Button
+	            android:id="@+id/button_log_hosting_add_new_contact"
+	            android:layout_weight="3"
+	            android:text="LOG"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#236B8E" />
+        </LinearLayout>
+    
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:background="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edit_text_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number"
+        android:inputType="number"
+        android:background="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    
+	<Button
+	    android:id="@+id/button_add_contact"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Add Contact"
+	    android:layout_gravity="center"
+	    android:background="#236B8E"
+	    android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+   
+	    
+</LinearLayout>

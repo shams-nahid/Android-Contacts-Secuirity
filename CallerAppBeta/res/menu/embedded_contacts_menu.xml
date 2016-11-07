@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/item_call_embedded_contacts_menu" android:title="Call"/>
+    <item android:id="@+id/item_message_embedded_contacts_menu" android:title="Message"/>
+    <item android:id="@+id/item_edit_embedded_contacts_menu" android:title="Edit"/>
+    <item android:id="@+id/item_move_to_external_list_embedded_contacts_menu" android:title="Move To External List"/>
+    <item android:id="@+id/item_copy_to_external_list_embedded_contacts_menu" android:title="Copy To External List"/>
+    <item android:id="@+id/item_delete" android:title="Delete"/>
+
+</menu>

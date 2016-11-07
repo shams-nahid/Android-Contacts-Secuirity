@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="#88ACE0" >
+    
+    <ImageView
+        android:id="@+id/image_view_missed_call_log_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp" />
+    
+  	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/text_view_missed_call_log_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:padding="2dp" />
+        <TextView
+            android:id="@+id/text_view_missed_call_log_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:id="@+id/text_view_missed_call_log_time_and_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginLeft="10dp" />
+        
+    </LinearLayout>
+</LinearLayout>

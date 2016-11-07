@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >	
+    
+     <LinearLayout
+         	android:id="@+id/temp"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="9"
+	        android:background="#236B8E" >
+	    <Button
+	        android:id="@+id/button_phone_hosting_search_contacts"
+	        android:layout_weight="3"
+	        android:text="PHONE"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#236B8E" />
+	    <Button
+	        android:id="@+id/button_contacts_hosting_search_contacts"
+	        android:layout_weight="3"
+	        android:text="CONTACTS"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#236B8E" />
+	    <Button
+            android:id="@+id/button_log_hosting_search_contacts"
+            android:layout_weight="3"
+            android:text="LOG"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E" />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:id="@+id/list_contacts_screen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#236B8E"
+        android:weightSum="4"
+        android:layout_below="@+id/temp" >
+        <EditText
+            android:id="@+id/edit_text_search_contacts_hosting_search_contacts"
+            android:layout_weight="3"
+            android:hint="Enter name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"            
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_contacts_screen" >
+		<ListView 
+	        android:id="@+id/list_view_search_contacts"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true" >
+	    </ListView>
+    </RelativeLayout>
+    
+</RelativeLayout>

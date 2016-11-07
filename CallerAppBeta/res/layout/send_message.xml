@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#88ACE0" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#236B8E"
+        android:weightSum="9" >
+        <Button
+            android:id="@+id/button_phone_hosting_send_message"
+            android:layout_weight="3"
+            android:text="PHONE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/button_contacts_hosting_send_message"
+            android:layout_weight="3"
+            android:text="CONTACTS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E" />
+        <Button
+            android:id="@+id/button_log_hosting_send_message"
+            android:layout_weight="3"
+            android:text="LOG"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#236B8E"
+        android:weightSum="10" >
+        <Button
+            android:id="@+id/button_call_hosting_send_message"
+            android:layout_weight="5"
+            android:text="CALL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E"            
+            android:textStyle="bold"
+            android:textColor="#000000"  />
+        <Button
+            android:id="@+id/button_message_hosting_send_message"
+            android:layout_weight="5"
+            android:text="MESSAGE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#88ACE0"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/text_view_to_hosting_send_message"
+            android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+            android:text="To"
+            android:textStyle="italic"
+			android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_weight="8" />
+        <EditText
+            android:id="@+id/edit_text_number_send_message"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="30sp"
+	        android:background="#FFFFFF"
+	        android:hint="Enter Number"
+	        android:inputType="number"
+	        android:layout_weight="2" />
+    </LinearLayout>
+    
+	    <TextView
+	        android:id="@+id/text_view_message_body_hosting_send_message"
+	        android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+	        android:textStyle="italic"
+			android:textSize="30sp"
+	        android:text="Compose"
+	        android:textColor="#FFFFFF"
+	        android:gravity="center"
+	        android:background="#236B8E" /> 
+    
+	<EditText
+        android:id="@+id/edit_text_body_send_message"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#FFFFFF"
+	    android:textSize="30sp"
+	    android:hint="Your Message" />
+	
+	<Button 
+        android:id="@+id/button_send_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#008000" />
+</LinearLayout>

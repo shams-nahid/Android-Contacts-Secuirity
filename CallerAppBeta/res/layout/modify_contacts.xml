@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    android:background="#88ACE0" >
+    	
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#236B8E"
+        android:weightSum="9" >
+        <Button
+            android:id="@+id/button_phone_hosting_modify_contacts"
+            android:layout_weight="3"
+            android:text="PHONE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E" />
+        <Button
+            android:id="@+id/button_contacts_hosting_modify_contacts"
+            android:layout_weight="3"
+            android:text="CONTACTS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E" />
+        <Button
+            android:id="@+id/button_log_hosting_modify_contacts"
+            android:layout_weight="3"
+            android:text="LOG"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E" />
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/edit_text_name_modify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:background="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edit_text_number_modify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number"
+        android:inputType="number"
+        android:background="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    
+	<Button
+	    android:id="@+id/button_modify_contact_modify"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Edit Complete"
+	    android:layout_gravity="center"
+	    android:background="#236B8E" />
+   
+	    
+</LinearLayout>

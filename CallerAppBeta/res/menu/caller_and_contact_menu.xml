@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/item_add_new_contact_menu"
+        android:title="Add Contact" />
+	<item android:id="@+id/item_search_contacts_menu"
+        android:title="Search Contact" />
+	<item android:id="@+id/item_preferences_menu"
+        android:title="Preferences" />
+	<item android:id="@+id/item_transfer_contacts_menu"
+        android:title="Transfer" />
+	<item android:id="@+id/item_about_us"
+        android:title="About Us" />
+	<item android:id="@+id/item_exit"
+        android:title="Back" />
+</menu>    
+

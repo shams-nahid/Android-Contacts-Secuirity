@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/item_call_call_log_menu" android:title="Call"/>
+    <item android:id="@+id/item_message_call_log_menu" android:title="Message"/>
+    <item android:id="@+id/item_save_as_call_log_menu" android:title="Save as..."/>
+
+</menu>

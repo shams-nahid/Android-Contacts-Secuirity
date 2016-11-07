@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#88ACE0" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#236B8E"
+        android:weightSum="9" >
+        <Button
+            android:id="@+id/button_phone_hosting_phone_call_screen"
+            android:layout_weight="3"
+            android:text="PHONE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/button_contacts_hosting_phone_call_screen"
+            android:layout_weight="3"
+            android:text="CONTACTS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E" />
+        <Button
+            android:id="@+id/button_log_hosting_phone_call_screen"
+            android:layout_weight="3"
+            android:text="LOG"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#236B8E"
+        android:weightSum="10" >
+        <Button
+            android:id="@+id/button_call_hosting_phone_call_screen"
+            android:layout_weight="5"
+            android:text="CALL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#88ACE0"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"  />
+        <Button
+            android:id="@+id/button_message_hosting_phone_call_screen"
+            android:layout_weight="5"
+            android:text="MESSAGE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#236B8E"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <Button
+	        android:id="@+id/button_gap_one_hosting_phone_call_screen"
+	        android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+	        android:textStyle="bold"
+			android:textSize="25sp"
+	        android:text="Open Contact"
+	        android:textColor="#FFFFFF"
+	        android:gravity="center"
+	        android:background="#88ACE0" />
+    <Button
+	        android:id="@+id/button_gap_two_hosting_phone_call_screen"
+	        android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+	        android:textStyle="bold"
+			android:textSize="25sp"
+	        android:text="Open Log"
+	        android:textColor="#FFFFFF"
+	        android:gravity="center"
+	        android:background="#88ACE0" />  
+    
+    <EditText
+    	android:id="@+id/edit_text_phone_number_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number"
+        android:inputType="number"
+        android:textSize="30sp"
+        android:background="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_make_call"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#008000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Call"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

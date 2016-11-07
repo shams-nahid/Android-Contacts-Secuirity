@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+   <ListPreference
+       android:title="Store System"
+       android:key="list"
+       android:summary="Choose Your Storage System"
+       android:entries="@array/list"
+       android:entryValues="@array/lValues" /> 
+    
+</PreferenceScreen>
